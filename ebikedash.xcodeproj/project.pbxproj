@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41678AA31DB4FF3300A98CCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41678AA21DB4FF3300A98CCA /* main.m */; };
+		41678AA61DB4FF3300A98CCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41678AA51DB4FF3300A98CCA /* AppDelegate.m */; };
+		41678AA91DB4FF3300A98CCA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41678AA81DB4FF3300A98CCA /* FirstViewController.m */; };
+		41678AAC1DB4FF3300A98CCA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41678AAB1DB4FF3300A98CCA /* SecondViewController.m */; };
+		41678AAF1DB4FF3300A98CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41678AAD1DB4FF3300A98CCA /* Main.storyboard */; };
+		41678AB11DB4FF3300A98CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41678AB01DB4FF3300A98CCA /* Assets.xcassets */; };
+		41678AB41DB4FF3300A98CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41678AB21DB4FF3300A98CCA /* LaunchScreen.storyboard */; };
+		41678ABD1DB4FF5F00A98CCA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41678ABC1DB4FF5F00A98CCA /* MapKit.framework */; };
+		41678ABF1DB4FF6900A98CCA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41678ABE1DB4FF6900A98CCA /* CoreLocation.framework */; };
+		41678AC51DB51B8700A98CCA /* MMLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41678AC31DB51B8700A98CCA /* MMLocationManager.m */; };
+		41678AC91DB67A9300A98CCA /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 41678AC81DB67A9300A98CCA /* watch.png */; };
+		41678ACB1DB6846300A98CCA /* cycling_road.png in Resources */ = {isa = PBXBuildFile; fileRef = 41678ACA1DB6846300A98CCA /* cycling_road.png */; };
+		41678ACD1DB6852700A98CCA /* speedwatch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41678ACC1DB6852700A98CCA /* speedwatch.jpg */; };
+		41678ACF1DB686C500A98CCA /* burning.png in Resources */ = {isa = PBXBuildFile; fileRef = 41678ACE1DB686C500A98CCA /* burning.png */; };
+		41678AD11DB6898900A98CCA /* up-down-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41678AD01DB6898900A98CCA /* up-down-logo.jpg */; };
+		41B035131EBACA9600B9A9E6 /* PinCharger_T.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41B035121EBACA9600B9A9E6 /* PinCharger_T.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41678A9E1DB4FF3300A98CCA /* ebikedash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ebikedash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41678AA21DB4FF3300A98CCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41678AA41DB4FF3300A98CCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41678AA51DB4FF3300A98CCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41678AA71DB4FF3300A98CCA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		41678AA81DB4FF3300A98CCA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		41678AAA1DB4FF3300A98CCA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		41678AAB1DB4FF3300A98CCA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		41678AAE1DB4FF3300A98CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41678AB01DB4FF3300A98CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41678AB31DB4FF3300A98CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41678AB51DB4FF3300A98CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41678ABC1DB4FF5F00A98CCA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		41678ABE1DB4FF6900A98CCA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		41678AC31DB51B8700A98CCA /* MMLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLocationManager.m; sourceTree = "<group>"; };
+		41678AC41DB51B8700A98CCA /* MMLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLocationManager.h; sourceTree = "<group>"; };
+		41678AC81DB67A9300A98CCA /* watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watch.png; sourceTree = "<group>"; };
+		41678ACA1DB6846300A98CCA /* cycling_road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cycling_road.png; sourceTree = "<group>"; };
+		41678ACC1DB6852700A98CCA /* speedwatch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = speedwatch.jpg; sourceTree = "<group>"; };
+		41678ACE1DB686C500A98CCA /* burning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burning.png; sourceTree = "<group>"; };
+		41678AD01DB6898900A98CCA /* up-down-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "up-down-logo.jpg"; sourceTree = "<group>"; };
+		41B035121EBACA9600B9A9E6 /* PinCharger_T.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PinCharger_T.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41678A9B1DB4FF3300A98CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41678ABF1DB4FF6900A98CCA /* CoreLocation.framework in Frameworks */,
+				41678ABD1DB4FF5F00A98CCA /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41678A951DB4FF3300A98CCA = {
+			isa = PBXGroup;
+			children = (
+				41678AA01DB4FF3300A98CCA /* ebikedash */,
+				41678A9F1DB4FF3300A98CCA /* Products */,
+				41678ABB1DB4FF5F00A98CCA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41678A9F1DB4FF3300A98CCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41678A9E1DB4FF3300A98CCA /* ebikedash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41678AA01DB4FF3300A98CCA /* ebikedash */ = {
+			isa = PBXGroup;
+			children = (
+				41678AC31DB51B8700A98CCA /* MMLocationManager.m */,
+				41678AC41DB51B8700A98CCA /* MMLocationManager.h */,
+				41678AA41DB4FF3300A98CCA /* AppDelegate.h */,
+				41678AA51DB4FF3300A98CCA /* AppDelegate.m */,
+				41678AA71DB4FF3300A98CCA /* FirstViewController.h */,
+				41678AA81DB4FF3300A98CCA /* FirstViewController.m */,
+				41678AAA1DB4FF3300A98CCA /* SecondViewController.h */,
+				41678AAB1DB4FF3300A98CCA /* SecondViewController.m */,
+				41678AAD1DB4FF3300A98CCA /* Main.storyboard */,
+				41678AB01DB4FF3300A98CCA /* Assets.xcassets */,
+				41678AB21DB4FF3300A98CCA /* LaunchScreen.storyboard */,
+				41678AB51DB4FF3300A98CCA /* Info.plist */,
+				41678AA11DB4FF3300A98CCA /* Supporting Files */,
+			);
+			path = ebikedash;
+			sourceTree = "<group>";
+		};
+		41678AA11DB4FF3300A98CCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41B035121EBACA9600B9A9E6 /* PinCharger_T.jpg */,
+				41678AD01DB6898900A98CCA /* up-down-logo.jpg */,
+				41678ACE1DB686C500A98CCA /* burning.png */,
+				41678ACC1DB6852700A98CCA /* speedwatch.jpg */,
+				41678ACA1DB6846300A98CCA /* cycling_road.png */,
+				41678AC81DB67A9300A98CCA /* watch.png */,
+				41678AA21DB4FF3300A98CCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41678ABB1DB4FF5F00A98CCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41678ABE1DB4FF6900A98CCA /* CoreLocation.framework */,
+				41678ABC1DB4FF5F00A98CCA /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41678A9D1DB4FF3300A98CCA /* ebikedash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41678AB81DB4FF3300A98CCA /* Build configuration list for PBXNativeTarget "ebikedash" */;
+			buildPhases = (
+				41678A9A1DB4FF3300A98CCA /* Sources */,
+				41678A9B1DB4FF3300A98CCA /* Frameworks */,
+				41678A9C1DB4FF3300A98CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ebikedash;
+			productName = ebikedash;
+			productReference = 41678A9E1DB4FF3300A98CCA /* ebikedash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41678A961DB4FF3300A98CCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Minfon;
+				TargetAttributes = {
+					41678A9D1DB4FF3300A98CCA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 653KB2U667;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 41678A991DB4FF3300A98CCA /* Build configuration list for PBXProject "ebikedash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41678A951DB4FF3300A98CCA;
+			productRefGroup = 41678A9F1DB4FF3300A98CCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41678A9D1DB4FF3300A98CCA /* ebikedash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41678A9C1DB4FF3300A98CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41678AB41DB4FF3300A98CCA /* LaunchScreen.storyboard in Resources */,
+				41678ACD1DB6852700A98CCA /* speedwatch.jpg in Resources */,
+				41678ACF1DB686C500A98CCA /* burning.png in Resources */,
+				41678ACB1DB6846300A98CCA /* cycling_road.png in Resources */,
+				41678AB11DB4FF3300A98CCA /* Assets.xcassets in Resources */,
+				41678AAF1DB4FF3300A98CCA /* Main.storyboard in Resources */,
+				41678AC91DB67A9300A98CCA /* watch.png in Resources */,
+				41678AD11DB6898900A98CCA /* up-down-logo.jpg in Resources */,
+				41B035131EBACA9600B9A9E6 /* PinCharger_T.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41678A9A1DB4FF3300A98CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41678AAC1DB4FF3300A98CCA /* SecondViewController.m in Sources */,
+				41678AC51DB51B8700A98CCA /* MMLocationManager.m in Sources */,
+				41678AA61DB4FF3300A98CCA /* AppDelegate.m in Sources */,
+				41678AA91DB4FF3300A98CCA /* FirstViewController.m in Sources */,
+				41678AA31DB4FF3300A98CCA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41678AAD1DB4FF3300A98CCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41678AAE1DB4FF3300A98CCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41678AB21DB4FF3300A98CCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41678AB31DB4FF3300A98CCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41678AB61DB4FF3300A98CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41678AB71DB4FF3300A98CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41678AB91DB4FF3300A98CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 653KB2U667;
+				INFOPLIST_FILE = ebikedash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = open.com.ebikedash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41678ABA1DB4FF3300A98CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 653KB2U667;
+				INFOPLIST_FILE = ebikedash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = open.com.ebikedash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41678A991DB4FF3300A98CCA /* Build configuration list for PBXProject "ebikedash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41678AB61DB4FF3300A98CCA /* Debug */,
+				41678AB71DB4FF3300A98CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41678AB81DB4FF3300A98CCA /* Build configuration list for PBXNativeTarget "ebikedash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41678AB91DB4FF3300A98CCA /* Debug */,
+				41678ABA1DB4FF3300A98CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41678A961DB4FF3300A98CCA /* Project object */;
+}
